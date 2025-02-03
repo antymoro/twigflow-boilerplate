@@ -18,9 +18,9 @@ This starter theme requires the [Twigflow Boilerplate](https://github.com/huncwo
     cd twigflow-boilerplate
     ```
 
-3. Install dependencies using Composer:
+3. Install TwigFlow using Composer:
     ```sh
-    composer install
+   composer require antymoro/twigflow:dev-main --prefer-stable
     ```
 
 4. Copy the starter theme files into the appropriate directories within the boilerplate.
