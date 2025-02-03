@@ -1,0 +1,7 @@
+{% extends 'base.twig' %}
+
+{% block content %}
+    {% for module in modules %}
+        {% include 'modules/m_' ~ module.type ~ '.twig' with module %}
+    {% endfor %}
+{% endblock %}
